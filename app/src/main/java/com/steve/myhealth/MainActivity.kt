@@ -20,13 +20,13 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-                window.statusBarColor=MaterialTheme.colors.background.toArgb()
-                window.navigationBarColor=MaterialTheme.colors.background.toArgb()
+//                window.statusBarColor=MaterialTheme.colors.background.toArgb()
+//                window.navigationBarColor=MaterialTheme.colors.background.toArgb()
                 // A surface container using the 'background' color from the theme
             MyHealthTheme() {
                 // A surface container using the 'background' color from the theme
-                Surface(color = MaterialTheme.colors.background) {
-
+                Surface(color = Color.DarkGray) {
+                    OnBoarding()
                 }
             }
 
